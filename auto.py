@@ -1,7 +1,7 @@
 import os
 os.system("sudo ufw enable")
 os.system("sudo apt update")
-os.system("sudo apt install")
+os.system("sudo apt upgrade")
 os.system("sudo apt-get update")
 os.system("sudo apt get upgrade")
 os.system("sudo apt install curl")
