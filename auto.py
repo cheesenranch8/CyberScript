@@ -5,9 +5,9 @@ os.system("sudo apt upgrade")
 os.system("sudo apt-get update")
 os.system("sudo apt get upgrade")
 os.system("sudo apt install curl")
-choice=input("Do you want to delet all .mp3 files? Y N")
-if choice = "Y":
-	os.system("sudo find / -name '*.mp3' -type f -delete 2>/dev/null")
+#choice=input("Do you want to delet all .mp3 files? Y N")
+#if choice = "Y":
+	#os.system("sudo find / -name '*.mp3' -type f -delete 2>/dev/null")
 os.system("sudo updatedb")
 os.system("cd /etc")
 os.system("sudo curl -s https://raw.githubusercontent.com/cheesenranch8/CyberScript/main/autoupgrade | sudo tee /etc/apt/apt.conf.d/20auto-upgrades > /dev/null")
